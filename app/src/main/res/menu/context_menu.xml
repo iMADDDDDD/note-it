@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com1032.org.iy00024_cw1.MainActivity">
+
+    <item
+        android:id="@+id/delete_item"
+        android:title="Delete"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/edit_item"
+        android:title="Edit"
+        app:showAsAction="always">
+    </item>
+
+</menu>

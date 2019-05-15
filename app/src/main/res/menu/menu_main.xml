@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com1032.org.iy00024_cw1.MainActivity">
+
+    <item
+        android:id="@+id/add_note"
+        android:icon="@drawable/ic_add_note"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/grade_app"
+        android:icon="@drawable/ic_grade_app"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/show_calendar"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="ifRoom" />
+
+</menu>

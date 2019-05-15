@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note It</string>
+    <string name="action_settings">Settings</string>
+    <string name="addNote"></string>
+    <string name="gradeApp"></string>
+    <string name="helpApp"></string>
+    <string name="newUser">Welcome! Begin by pressing the + button ;)</string>
+    <string name="noteConfirmed">Note added</string>
+    <string name="noteUnconfirmed">Canceled</string>
+    <string name="placeHolderTitle">Add title</string>
+    <string name="placeHolderDetails">Add details</string>
+    <string name="due">A note is due today</string>
+    <string name="beginNote">Every bright idea had to begin with a note. Just do the same ;)</string>
+    <string name="fill">Please fill in title and/or details</string>
+</resources>

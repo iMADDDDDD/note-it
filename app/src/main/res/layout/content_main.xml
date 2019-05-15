@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:columnOrderPreserved="false"
+    android:alignmentMode="alignBounds"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com1032.org.iy00024_cw1.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/action_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="@color/toolbarColor"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <ListView
+        android:id="@+id/notesView"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"
+        android:paddingLeft="2dp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    </GridLayout>
+
+
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/appNameColor"
+    tools:context="com1032.org.iy00024_cw1.ProgressBars"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:backgroundTint="@color/appNameColor">
+
+    <ImageView
+        android:id="@+id/launcher_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="1" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/toolbarColor"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeApp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeApp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:progress="100"
+        android:progressDrawable="@drawable/a_progress_bar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeApp"/>
+
+</LinearLayout>

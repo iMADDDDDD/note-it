@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#266f54</color>
+    <color name="colorPrimaryDark">#266f54</color>
+    <color name="toolbarColor">#389874</color>
+    <color name="appColor">#266f54</color>
+    <color name="appNameColor">#FFFFFF</color>
+</resources>
